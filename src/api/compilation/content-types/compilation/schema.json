@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compilations",
+  "info": {
+    "singularName": "compilation",
+    "pluralName": "compilations",
+    "displayName": "compilation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "posterURL": {
+      "type": "string"
+    }
+  }
+}
